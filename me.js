@@ -10,7 +10,7 @@ const moon = document.querySelector(".moon")
 
 
 
-let darkMode = true
+let darkMode = false
 
 function switchDarkMode(){
    
