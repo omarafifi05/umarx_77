@@ -10,12 +10,12 @@ const moon = document.querySelector(".moon")
 
 
 
-let darkMode = false
+let darkMode = true
 
 function switchDarkMode(){
    
-    if(darkMode == false){
-        darkMode = true
+    if(darkMode == true){
+        darkMode = false
        background.style.backgroundColor = "black"
 
       botona.style.backgroundColor = "black"
@@ -56,7 +56,7 @@ for(let i=0; i<navba.length; i++){
 
 
     } else{
-        darkMode = false
+        darkMode = true
         background.style.backgroundColor = "white"
         botona.style.backgroundColor = "white"
         botona.style.color = "black"
